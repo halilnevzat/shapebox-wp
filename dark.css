@@ -10,20 +10,13 @@ body:where(.dark) .blog-single-format,
 body:where(.dark) .blog-card-inner,
 body:where(.dark) .featured-link:focus,
 body:where(.dark) .slick-image-slide { background-color: #141416; }
-body:where(.dark) .border{
-	border:solid;
-	border-color: #c14bff;
-}
-
 body:where(.dark) .featured-item,
 body:where(.dark) .blog-single-inner { background-color: #141416; }
-
 body:where(.dark) #wrapper { border-color: #141416; }
 body:where(.dark) #header { border-color: #23262f; }
 body:where(.dark).col-2cl .s1 { box-shadow: inset 1px 0 0 rgba(255,255,255,0.06); }
 body:where(.dark).col-2cr .s1 { box-shadow: inset -1px 0 0 rgba(255,255,255,0.06); }
 body:where(.dark) .s2 { box-shadow: inset -1px 0 0 rgba(255,255,255,0.06); }
-
 body:where(.dark) .featured-item-wrap,
 body:where(.dark) .blog-card-wrap,
 body:where(.dark) #footer,
@@ -36,9 +29,7 @@ body:where(.dark) .blog-single,
 body:where(.dark) .blog-single-author a:after,
 body:where(.dark) .author-bio,
 body:where(.dark) .post-tags a { background-color: #212226; }
-
 body:where(.dark) #profile-name:after { border-top-color: #212226; }
-
 body:where(.dark) a,
 body:where(.dark) a:hover,
 body:where(.dark) .entry a:hover,

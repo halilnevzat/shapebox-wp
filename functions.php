@@ -757,3 +757,14 @@ function shapebox_border() {
 	
 }
 add_action( 'wp_print_footer_scripts', 'shapebox_border' );
+function shapebox_custom_scrollbar() {
+	if ( ( get_theme_mod( 'custom-scrollbar','off' ) == 'on' )){
+		?>
+	<script>
+		document.body.classList.add("custom-scrollbar");
+	</script>
+	<?php
+	}
+	
+}
+add_action( 'wp_print_footer_scripts', 'shapebox_custom_scrollbar' );

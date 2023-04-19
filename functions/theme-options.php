@@ -743,6 +743,19 @@ Kirki::add_field( 'shapebox_theme', array(
 			'off' => esc_html__( 'Disable', 'kirki' ),
 		],
 ) );
+// Custom: Scroll-bar
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'custom-scrollbar',
+	'label'			=> esc_html__( 'Custom Scroll-Bar', 'shapebox' ),
+	'description'	=> wp_kses_post( 'Style Scroll-Bar <br> (scrollbar background color is not correct in preview mode)' ),
+	'section'		=> 'styling',
+	'default'     => 'off',
+		'choices'     => [
+			'on'  => esc_html__( 'Enable', 'kirki' ),
+			'off' => esc_html__( 'Disable', 'kirki' ),
+		],
+) );
 
 // Styling: Primary Color
 Kirki::add_field( 'shapebox_theme', array(

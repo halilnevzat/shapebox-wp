@@ -131,17 +131,21 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .alx-tab li:hover .tab-item-title a,
 .alx-tab li:hover .tab-item-comment a,
 .alx-posts li:hover .post-item-title a { color: '.esc_attr( get_theme_mod('color-1') ).'; }
-
 .slick-featured .slick-dots .slick-active button { border-color: '.esc_attr( get_theme_mod('color-1') ).'; }
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	background-color: '.esc_attr( get_theme_mod('color-1') ).';
+	border-radius: 100vw;
+  }				
+.border{
+	border:solid;
+	border-color: '.esc_attr( get_theme_mod('color-1') ).';
+}
 				'."\n";
 			}
 			// gradient left
 			if ( get_theme_mod('gradient-left','#c14bff') != '#c14bff' ) {
 				$styles .= '
-				.border{
-					border:solid;
-					border-color: '.esc_attr( get_theme_mod('gradient-left') ).';
-				}
+				
 #profile,
 .toggle-search,
 .toggle-search.active,
