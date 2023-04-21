@@ -10,7 +10,19 @@
 	<?php endif; ?>
 	
 	<?php wp_head(); ?>
+
+	<meta name="twitter:image" content="<?php the_post_thumbnail_url('shapebox-medium'); ?>">
+	
 </head>
+ <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKY4EYSKSG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XKY4EYSKSG');
+    </script>
 
 <body <?php body_class(); ?>>
 

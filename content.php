@@ -3,7 +3,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('blog-card-wrap'); ?>>
 
 		<div class="blog-card group">
-			
 			<a href="<?php the_permalink(); ?>" class="blog-card-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-medium'); ?>');">
 			
 				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-play"></i></span>'; ?>

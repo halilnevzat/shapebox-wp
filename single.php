@@ -22,7 +22,9 @@
 						</div>
 						
 					<?php else: ?>
-					
+						
+						
+
 						<div class="blog-single-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-large'); ?>');">
 							
 							<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
