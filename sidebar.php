@@ -12,7 +12,7 @@ if ($layout != 'col-1c'):
 					<div id="profile-inner">
 						<?php if (get_theme_mod('profile-image')): ?>
 							<div id="profile-image"><a href="<?php echo esc_url(home_url()); ?>"><img
-										src="<?php echo esc_html(get_theme_mod('profile-image')); ?>" alt="" /></a></div>
+										src="<?php echo esc_html(get_theme_mod('profile-image')); ?>" alt="" width="100%" height="100%" /></a></div>
 						<?php endif; ?>
 						<?php if (get_theme_mod('profile-name')): ?>
 							<div id="profile-name">
